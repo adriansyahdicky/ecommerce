@@ -1,5 +1,8 @@
 Please Execute Thid Query : 
 
+<b>DATABASE POSTGRE</b>
+
+
 CREATE DATABASE komputama-db;
 
 CREATE OR REPLACE FUNCTION public.uuid_generate_v4()
