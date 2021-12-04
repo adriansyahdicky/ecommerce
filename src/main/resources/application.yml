@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: ecommerce
+  datasource:
+    url: jdbc:postgresql://localhost:5432/komputama-db
+    username: postgres
+    password: root
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+  main:
+    allow-bean-definition-overriding: true
+  logging:
+    level:
+      root: DEBUG
+      org.springframework.web: ERROR
+      co.id.danafix: DEBUG
+      org.hibernate: ERROR
+
+server:
+  port: 8080
+
+logging:
+  level:
+    co:
+      id:
+        danafix: DEBUG
+
