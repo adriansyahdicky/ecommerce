@@ -68,4 +68,4 @@ This API :
   
 3. http://localhost:8080/chart/item/remove/{idItem}  ->> Remove Item Chart
 
-4. http://localhost:8080/chart/item/calculate/ff128249-1b8e-49c3-82d2-faa023ab4a0a   ->> Calculation 
+4. http://localhost:8080/chart/item/calculate/{transactionId}   ->> Calculation 
